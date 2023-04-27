@@ -1,0 +1,23 @@
+
+form{
+    background-color:#f0efe1;
+    text-align: center;
+    padding:50px;
+    margin-right: 250px;
+    margin-left: 250px;
+
+}
+event{
+    margin: 20px;
+}
+{
+    background-image: url("s3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body{
+    background-color: #FC2947;
+}
+h1{
+   color: aqua;
+}

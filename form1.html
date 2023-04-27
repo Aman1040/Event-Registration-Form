@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+
+
+            background-size: 100%;
+            border: 22px solid #05BFDB;
+            margin: auto;
+
+
+        }
+
+        table {
+            background-color: white;
+            padding: 20px;
+            font-family: Trebuchet MS, sans-serif;
+        }
+
+        header {
+            padding: 20px;
+            background-color: #D4FAFC;
+            font-family: Trebuchet MS, sans-serif;
+        }
+
+        .button {
+            background-color: #F9D949;
+            /* Green */
+
+
+            padding: 10px 24px;
+            border-radius: 100px;
+            text-align: center;
+
+
+            font-size: 16px;
+
+            background: #f0c020;
+
+
+            transition-duration: 0.4s;
+            display: block;
+
+            border: none;
+        }
+
+        .button:hover {
+            background-color: #4CAF50;
+            /* Green */
+            color: white;
+        }
+        body{
+            background-image: url("img3.jpg");
+           
+        }
+    </style>
+
+</head>
+
+<body>
+    <header align="center">
+        <div>
+            <h2> Event Registration Form</h2>
+            <h4> Last Registration Day - April 30,2025</h4>
+        </div>
+    </header>
+    <form>
+        <table border="0" cellspacing="0" align="center" width="50%">
+            <tr>
+                <th colspan="2">
+                    <div class="event"> <label for="firstname">fName :</label>
+                        <input type="text" name="firstname" required><br>
+                    </div>
+                </th>
+                <th>
+                    <div>
+                        <label for="class">Class:</label>
+                        <select id="class" name="class">
+                            <option value="first">first year</option>
+                            <option value="second">Second year</option>
+                            <option value="third">Third year</option>
+                            <option value="Fourth">Fourth year</option>
+                        </select>
+                    </div>
+                </th>
+            </tr>
+            <tr>
+                <th colspan="2">
+                    <div class="event"> <label id="lastname">LName :</label>
+                        <input type="text" name="lastname" required><br>
+                    </div>
+                </th>
+                <th>
+                    <div class="event"> <label for="class">City:</label>
+                        <select id="class" name="class">
+                            <option value="Nagpur">Nagpur</option>
+                            <option value="Amravati">Amravati</option>
+                            <option value="akola">akola</option>
+                            <option value="chandrapur">Chandrapur</option>
+                        </select>
+                    </div>
+                </th>
+            </tr>
+            <tr>
+                <th colspan="2">
+                    <div class="event"> <label id="college">College :</label>
+                        <input type="text" name="college" required><br>
+                    </div>
+                </th>
+                <th>
+                    <div class="event"> <label id="state">state</label><br>
+                        <input type="text" name="state" required><br>
+                    </div>
+                </th>
+            </tr>
+            <tr>
+                <th colspan="2">
+                    <div class="event"> <label id="dept">Department :</label>
+                        <input type="text" name="dept" required><br>
+                    </div>
+                </th>
+                <th>
+                    <div class="event">
+                        <label for="event">Event</label><br>
+                        <input type="radio" name="event">
+                        <label>event1</label>
+                        <input type="radio" name="event">
+                        <label>event1</label><br>
+                        <input type="radio" name="event">
+                        <label>event1</label>
+                        <input type="radio" name="event">
+                        <label>event1</label>
+
+
+                    </div>
+                </th>
+            </tr>
+            <tr>
+                <th colspan="2">
+                    <div class="event"> <label for="address">Address</label><br>
+                        <textarea id="address" width="500"></textarea>
+                    </div>
+                </th>
+                <th>
+                    <div class="event"> <label id="eventname">Amount paid</label><br>
+                        <input type="text" name="eventname" required><br>
+                    </div>
+                </th>
+            </tr>
+            <tr>
+                <th colspan="2">
+                    <div class="event"> <label id="eventname">Email</label><br>
+                        <input type="text" name="eventname" required><br>
+                    </div>
+                </th>
+                <th>
+                    <div class="event"> <label id="eventname">transaction</label><br>
+                        <input type="text" name="eventname" required><br>
+                    </div>
+                </th>
+            </tr>
+            <tr>
+                <th colspan="2">
+                    <div class="event"> <label id="eventname">phone</label><br>
+                        <input type="text" name="eventname" required><br>
+                    </div>
+                </th>
+                <th>
+                    <div><label>Professionals:</label><br>
+                        <input type="radio" id="cse" value="cse" name="prof">
+                        <label for="cse">CSE</label><br>
+
+                        <input type="radio" id="ieee" value="ieee" name="prof">
+                        <label for="ieee">IEEE</label><br>
+
+                        <input type="radio" id="iste" value="iste" name="prof">
+                        <label for="iste">ISTE</label><br>
+                        <input type="radio" id="iete" value="iete" name="prof">
+                        <label for="iete">IETE</label>
+                    </div>
+                </th>
+            </tr>
+            <tr>
+                <th colspan="2">
+                    <div>
+                        <label for="prog"> Program</label><br>
+                        <input type="radio" id="btech" value="btech" name="prog">
+                        <label for="btech">B.TECH</label><br>
+
+                        <input type="radio" id="mtech" value="mtech" name="mtech">
+                        <label for="mtech">M.TECH</label><br>
+                    </div>
+                </th>
+                <th>
+                    <div>
+                        <label for="gender"> Gender</label><br>
+                        <input type="radio" id="male" value="male" name="gender">
+                        <label for="male">MALE</label><br>
+
+                        <input type="radio" id="femal" value="female" name="gender">
+                        <label for="female">FEMALE</label><br>
+                    </div>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                
+                    <button class="button" type="submit">
+
+                        Submit
+
+                    </button>
+
+                </th>
+                <th>
+                    <button class="button" type="reset">
+
+                        Reset
+
+                    </button>
+                </th>
+                <th>
+                    <button class="button">
+
+                        Ok
+
+                    </button>
+                </th>
+            </tr>
+
+
+        </table>
+
+    </form>
+
+    <H6 style="font-size: xx-small; " style="font-family: Futara;" style="text-align: left;">AJ</H6>
+</body>
+
+</html>
